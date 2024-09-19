@@ -7,6 +7,7 @@ import Section4 from "./_pages/section4";
 import Section5 from "./_pages/section5";
 import Section1Mobile from "./_pages/section1Mobile";
 import useWindowSize from './_pages/mobileIdentifier'; 
+import Section2Mobile from "./_pages/section2Mobile";
 
 export default function Home() {
   const size = useWindowSize();
@@ -17,6 +18,7 @@ export default function Home() {
       {isMobile ? (
         <>
         <Section1Mobile />
+        <Section2Mobile />
         </>
         ) : (
           <>
@@ -26,7 +28,7 @@ export default function Home() {
           <Section4 />
           <Section5 />
           </>
-          )};
+          )}
     </>
   );
 }

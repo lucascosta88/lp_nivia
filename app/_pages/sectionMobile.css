@@ -19,3 +19,11 @@
     line-height: 20px;
     color: black;
 }
+
+.images-containerS2 {
+    height: 80.6%; 
+    right: 160px;
+    background-image: "url('./02/background.svg')"; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
