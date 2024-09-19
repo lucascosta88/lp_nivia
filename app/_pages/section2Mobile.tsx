@@ -2,7 +2,11 @@ import './sectionMobile.css';
 
 const Section2Mobile = () => {
     return ( 
-        <div className='images-containerS2 flex justify-center text-center'>
+        <div className='flex justify-center text-center' 
+        style={{
+            backgroundImage: `url('./02/background.svg')`,
+            backgroundColor: 'gray', // Fallback color to see if the style is applied
+        }}>
             <div className='py-12'>
                 <h1 className='text-center'>Como seria sua vida se...</h1>
                 <div className='py-12'>
