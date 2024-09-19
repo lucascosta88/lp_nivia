@@ -10,7 +10,7 @@ const videoLinks = [
 const Section3Mobile = () => {
     return ( 
         <div className="flex justify-center gradient-backgroundS3">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center py-12">
                 <h1 className="h1">Histórias de transformação</h1>
                 
                 <div className="py-12">
