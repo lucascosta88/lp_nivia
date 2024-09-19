@@ -49,3 +49,16 @@
     position: relative;
     z-index: 1; /* Ensures image2 is below image1 */
 }
+
+.p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    line-height: 30.48px;
+    align-items: center;
+    color: black;
+}
+
+.backgroundS2 {
+    background: white;
+    height: 800px;
+}
