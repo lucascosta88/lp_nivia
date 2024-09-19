@@ -1,0 +1,21 @@
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 34.13px;
+    color: black;
+}
+
+.p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+}
