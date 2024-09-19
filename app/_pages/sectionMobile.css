@@ -32,3 +32,18 @@
     background: linear-gradient(to right, #C89181, #DBA17A);
     height: flex;
 }
+
+.h2S4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 42.67px;
+    color: white;
+    font-weight: bold;
+}
+
+.p3S4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 34.13px;
+    color: white;
+}
