@@ -47,3 +47,18 @@
     line-height: 34.13px;
     color: white;
 }
+
+.h3S5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    line-height: 42.67px;
+    color: black;
+    font-weight: bold;
+}
+
+.p4S5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    line-height: 30.67px;
+    color: black;
+}

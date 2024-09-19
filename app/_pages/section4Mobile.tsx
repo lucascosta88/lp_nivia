@@ -10,7 +10,7 @@ const Section4Mobile = () => {
         }}>
             <div className='flex flex-col pl-12'>
                 <h1 className='h2S4 py-12'>Nívia Oliveira</h1>
-                <p className='p3S4'>
+                <p className='p3S4 pb-12'>
                     Mulher, empresária, mentora, master coach.
                     <br/>Nívia Oliveira é uma mulher de alta performance.
 
