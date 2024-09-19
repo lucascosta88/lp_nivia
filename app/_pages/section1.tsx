@@ -1,7 +1,5 @@
 import './section1.css';
 import { Button } from "@/components/ui/button"
-import { Link } from 'lucide-react';
-import Image from 'next/image';
 import React from 'react';
 
 const Section1 = () => {

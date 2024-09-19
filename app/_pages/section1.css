@@ -4,7 +4,6 @@
 }
 
 .h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     line-height: 42.67px;
     color: black;
@@ -12,7 +11,6 @@
 }
 
 .h1S1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     line-height: 42.67px;
     color: black;
@@ -20,7 +18,6 @@
 }
 
 .h2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     line-height: 42.67px;
     color: white;
@@ -28,7 +25,6 @@
 }
 
 .h3 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     line-height: 42.67px;
     color: black;
@@ -36,42 +32,36 @@
 }
 
 .p {
-    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     line-height: 34.13px;
     color: black;
 }
 
 .pS1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     line-height: 34.13px;
     color: black;
 }
 
 .p1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     line-height: 34.13px;
     color: black;
 }
 
 .p1S1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     line-height: 34.13px;
     color: black;
 }
 
 .p3 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     line-height: 34.13px;
     color: white;
 }
 
 .p4 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     line-height: 42.67px;
     color: black;
@@ -103,7 +93,6 @@
 }
 
 .p2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     line-height: 30.48px;
     align-items: center;
