@@ -6,7 +6,11 @@ import React from 'react';
 
 const Section1 = () => {
     return ( 
-        <div className="gradient-background flex pl-52">
+        <div className="gradient-background flex pl-52" style={{
+            backgroundImage: "url('/01/bg-nivia-full.png')", 
+            backgroundRepeat: 'no-repeat', 
+            backgroundPosition: 'center'
+        }}>
             <div>
                 <div className='py-12'>
                     <p className='pS1'>Mulheres de Alta Performance</p>
