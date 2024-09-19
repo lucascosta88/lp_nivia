@@ -11,6 +11,14 @@
     font-weight: bold;
 }
 
+.h1S1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    line-height: 42.67px;
+    color: black;
+    font-weight: bold;
+}
+
 .h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
@@ -34,7 +42,21 @@
     color: black;
 }
 
+.pS1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    line-height: 34.13px;
+    color: black;
+}
+
 .p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    line-height: 34.13px;
+    color: black;
+}
+
+.p1S1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     line-height: 34.13px;

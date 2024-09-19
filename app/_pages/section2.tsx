@@ -2,12 +2,11 @@ import './section1.css';
 
 const Section2 = () => {
     return ( 
-        <div className='backgroundS2'>
-            <div className='flex flex-col items-center z-0'>
-                <h1 className='absolute text-[310px] z-0'>MULHERES</h1>
-                <h1 className='absolute text-[310px] py-[450px] z-0'>ALTA PERFO</h1>
-            </div>
-            <div className="h1 flex flex-col items-center py-12 z-10">
+        <div className='backgroundS2' style={{
+            backgroundImage: `url('./02/background.svg')`,
+            backgroundColor: 'gray', // Fallback color to see if the style is applied
+        }}>
+            <div className="h1 flex flex-col items-center py-32 z-10">
                 <h1 className='z-10'>Como seria a tua vida se...</h1>
                 <div className='flex flex-col items-center py-12 z-10'>
                     <p className="p2 text-2xl">Tivesses tempo para cuidar de ti e</p>

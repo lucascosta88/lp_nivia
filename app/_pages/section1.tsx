@@ -1,5 +1,6 @@
 import './section1.css';
 import { Button } from "@/components/ui/button"
+import { Link } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
 
@@ -8,11 +9,11 @@ const Section1 = () => {
         <div className="gradient-background flex pl-52">
             <div>
                 <div className='py-12'>
-                    <p className='p'>Mulheres de Alta Performance</p>
+                    <p className='pS1'>Mulheres de Alta Performance</p>
                 </div>
 
                 <div>
-                    <h1 className='h1'>
+                    <h1 className='h1S1'>
                         Reconecta-te com o teu
                         <br/>feminino e eleva a tua
                         <br/>performance sistémica
@@ -21,7 +22,7 @@ const Section1 = () => {
                 </div>
 
                 <div>
-                    <p className='p1 py-12'>
+                    <p className='p1S1 py-12'>
                         Nesta mentoria exclusiva para mulheres,
                         <br/>vais trabalhar profundamente a tua
                         <br/>conexão com o feminino, integrando
@@ -33,13 +34,10 @@ const Section1 = () => {
                 </div>
 
                 <div>
-                    <Button variant={'ProjectButton'} size={'ProjectButton'}>Garantir a minha vaga</Button>
+                    <a href='https://api.whatsapp.com/send/?phone=351914705127&text&type=phone_number&app_absent=0'>
+                        <Button variant={'ProjectButton'} size={'ProjectButton'}>Garantir a minha vaga</Button>
+                    </a>
                 </div>
-            </div>
-
-            <div className='flex items-end images-container'>
-                <Image className='image1' src='./01/01 1.svg' alt='Image 01' width={655} height={521} />
-                <Image className='image2' src='./01/02 1.svg' alt='Image 02' width={585} height={521} />
             </div>
         </div>
      );
