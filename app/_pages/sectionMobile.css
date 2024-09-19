@@ -27,3 +27,8 @@
     background-size: cover; 
     background-repeat: no-repeat; 
 }
+
+.gradient-backgroundS3 {
+    background: linear-gradient(to right, #C89181, #DBA17A);
+    height: flex;
+}
