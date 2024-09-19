@@ -1,0 +1,51 @@
+.gradient-background {
+    background: linear-gradient(to right, #C89181, #DBA17A);
+    height: 800px;
+}
+
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    line-height: 42.67px;
+    color: black;
+    font-weight: bold;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    line-height: 34.13px;
+    color: black;
+}
+
+.p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    line-height: 34.13px;
+    color: black;
+}
+
+
+.items-end {
+    align-items: flex-end;
+}
+
+.images-container {
+    position: absolute;
+    height: 80.6%; /* Ensure the container takes the full height of the parent */
+    right: 160px;
+    background-image: "url('./01/03 1.svg')"; /* Corrected syntax */
+    background-size: cover; /* Ensure the background image covers the container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+.image1 {
+    position: relative;
+    z-index: 2; /* Ensures image1 is on top */
+    margin-right: -240px; /* Adjust this value to control the overlap */
+}
+
+.image2 {
+    position: relative;
+    z-index: 1; /* Ensures image2 is below image1 */
+}
